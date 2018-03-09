@@ -1,4 +1,4 @@
-{% set version = '0.6.1' %}
+{% set version = "0.6.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/gProfileR_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/gProfileR/gProfileR_{{ version }}.tar.gz
-  sha256: 17edad1d2f61f84b443b3b322972c5e4d94a12ad5c31cadad536290e5a093de2
+  sha256: 0b78513b34204970927bb9dc27765e1d27dbc3ec170b74eabd2b87bfbe006ab2
 
 build:
   number: 0
