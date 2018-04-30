@@ -26,6 +26,7 @@ requirements:
     - r-base
     - r-rcurl
     - r-plyr
+    - r-rcurl  # [win]
 
   run:
     - r-base
