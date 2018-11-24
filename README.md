@@ -7,16 +7,15 @@ Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the 'g:Profiler' toolkit (http://biit.cs.ut.ee/gprofiler/).
+Summary: Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the 'g:Profiler' toolkit (<https://biit.cs.ut.ee/gprofiler/>).
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-gprofiler-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-gprofiler-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-gprofiler-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-gprofiler-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-gprofiler-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-gprofiler-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-gprofiler-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-gprofiler-feedstock)
 
 Current release info
 ====================
