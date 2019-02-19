@@ -1,4 +1,4 @@
-{% set version = '0.6.6' %}
+{% set version = "0.6.7" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,12 +12,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gProfileR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gProfileR/gProfileR_{{ version }}.tar.gz
-  sha256: f161dabaeb425345fac2d0b221ee2019c470256d847ab853274b80204590ccd8
+  sha256: 6736bb38e8ddf8c51c4e213af16f9eb66daafd32423d6c5bf1ce566c578bdc8a
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
