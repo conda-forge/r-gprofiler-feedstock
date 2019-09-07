@@ -41,6 +41,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=gProfileR
   license: GPL (>= 2)
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Functional enrichment analysis, gene identifier conversion and mapping homologous
     genes across related organisms via the 'g:Profiler' toolkit (<https://biit.cs.ut.ee/gprofiler/>).
   license_family: GPL3
@@ -48,8 +49,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
