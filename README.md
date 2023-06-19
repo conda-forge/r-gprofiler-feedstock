@@ -1,11 +1,11 @@
-About r-gprofiler
-=================
+About r-gprofiler-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gprofiler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=gProfileR
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gprofiler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the 'g:Profiler' toolkit (<https://biit.cs.ut.ee/gprofiler/>).
 
